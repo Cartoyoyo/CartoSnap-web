@@ -69,12 +69,25 @@ Si Safari refuse la position, l'appli affiche un bandeau rouge ; touchez-le pour
 | **Exporter** | galerie → ⋮ → *Export CSV / ZIP* | CSV, ZIP photos + CSV, ZIP QGIS, ZIP complet ou **Carte HTML**, puis feuille de partage iOS (Enregistrer, AirDrop, Mail…) |
 | **Rapport PDF** | Carte HTML → *Exporter en PDF* | titre, A4 ou A3, portrait ou paysage ; page 1 = la carte, puis 6 photos par page ; *Préparer* puis *Imprimer / Enregistrer en PDF* (iPhone : *Partager → Imprimer*). [Exemple](docs/exemple_rapport_cartosnap.pdf) |
 
+### Exports
+
+| Export | Contenu |
+|---|---|
+| CSV seul | une ligne par photo : X/Y Lambert 93, date, altitude, adresse, lien Google Maps (UTF-8 avec BOM, `;`) |
+| ZIP Photos + CSV | le CSV + les photos |
+| ZIP QGIS | GeoJSON Lambert 93 + projet `.qgz`/`.qgs` (photos en vignettes) + photos |
+| ZIP Complet | CSV + GeoJSON + projet QGIS + photos |
+| **Carte HTML** | un seul fichier `.html` lisible dans tout navigateur : carte (OSM France, OpenTopoMap, photo aérienne IGN), marqueurs, popups avec photo et X/Y, grille des photos |
+| **Rapport PDF** | depuis la Carte HTML : titre, A4/A3, portrait/paysage ; page 1 = carte, puis 6 photos par page |
+| Carte JPEG | depuis la carte des photos : carte A4 avec vignettes, titre et commentaire |
+
 ### À savoir
 
 - **Les photos restent dans Safari**, pas dans la photothèque de l'iPhone. Partagez-les ou exportez-les régulièrement : Safari peut effacer les données d'un site non installé sur l'écran d'accueil.
 - **Rien n'est envoyé à un serveur** : les photos de chacun restent sur son téléphone. Seuls l'adresse (Nominatim) et les fonds de carte passent par internet.
 - **Sans GPS**, la photo est enregistrée sans coordonnées ; l'appli n'invente jamais de position.
 - Sur Android, préférez l'application : [cartoyoyo.github.io/CartoSnap-APK](https://cartoyoyo.github.io/CartoSnap-APK/).
+- Différences avec Android (boussole, dossier, réparation) et limites connues : voir la [documentation complète](https://cartoyoyo.github.io/CartoSnap-APK/).
 
 ---
 
