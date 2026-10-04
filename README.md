@@ -36,6 +36,13 @@
 | ![Carte HTML](docs/screenshots/carte_html.jpg) |
 | Un seul fichier `.html` à partager : carte (OSM France, OpenTopoMap, photo aérienne IGN), marqueurs numérotés,<br>coordonnées Lambert 93, photos intégrées et bouton **Exporter en PDF** (A4/A3, portrait/paysage) |
 
+| Exporter en PDF | Rapport — page 1 : la carte | Rapport — page 2 : 6 photos par page |
+|:---:|:---:|:---:|
+| ![Fenêtre Exporter en PDF](docs/screenshots/export_pdf.jpg) | [![Rapport PDF page 1](docs/screenshots/rapport_pdf_page1.jpg)](docs/exemple_rapport_cartosnap.pdf) | [![Rapport PDF page 2](docs/screenshots/rapport_pdf_page2.jpg)](docs/exemple_rapport_cartosnap.pdf) |
+| Titre, A4 ou A3,<br>portrait ou paysage | Vue de la carte, marqueurs<br>numérotés, échelle | Photo, date, X/Y Lambert 93,<br>adresse, altitude, précision |
+
+📄 [Voir le rapport PDF d'exemple](docs/exemple_rapport_cartosnap.pdf) (A4 portrait, 2 pages)
+
 </div>
 
 ---
@@ -60,7 +67,7 @@ Si Safari refuse la position, l'appli affiche un bandeau rouge ; touchez-le pour
 | **Annoter** | interrupteur « Annoter » | stylo, commentaire, puis *Enregistrer* |
 | **Retrouver** | icône galerie | toutes les photos, avec adresse et date ; carte des photos |
 | **Exporter** | galerie → ⋮ → *Export CSV / ZIP* | CSV, ZIP photos + CSV, ZIP QGIS, ZIP complet ou **Carte HTML**, puis feuille de partage iOS (Enregistrer, AirDrop, Mail…) |
-| **Dossier PDF** | Carte HTML → *Exporter en PDF* | titre, A4 ou A3, portrait ou paysage ; page 1 = la carte, puis 6 photos par page ; *Imprimer → Enregistrer en PDF* |
+| **Rapport PDF** | Carte HTML → *Exporter en PDF* | titre, A4 ou A3, portrait ou paysage ; page 1 = la carte, puis 6 photos par page ; *Préparer* puis *Imprimer / Enregistrer en PDF* (iPhone : *Partager → Imprimer*). [Exemple](docs/exemple_rapport_cartosnap.pdf) |
 
 ### À savoir
 
