@@ -6,7 +6,7 @@
 
 **Appareil photo de terrain qui nomme, annote et géoréférence chaque cliché en Lambert 93, utilisable sur iPhone dans Safari**
 
-[![Version](https://img.shields.io/badge/version-1.0-blue)](https://cartoyoyo.github.io/CartoSnap-web/)
+[![Version](https://img.shields.io/badge/version-1.1.0-blue)](https://cartoyoyo.github.io/CartoSnap-web/)
 [![iPhone](https://img.shields.io/badge/iPhone-Safari-lightgrey?logo=safari&logoColor=white)](https://cartoyoyo.github.io/CartoSnap-web/)
 [![Android](https://img.shields.io/badge/Android-APK-3DDC84?logo=android&logoColor=white)](https://cartoyoyo.github.io/CartoSnap-APK/)
 [![CRS](https://img.shields.io/badge/CRS-EPSG%3A2154%20Lambert%2093-orange)](https://cartoyoyo.github.io/CartoSnap-web/)
@@ -75,7 +75,7 @@ Si Safari refuse la position, l'appli affiche un bandeau rouge ; touchez-le pour
 |---|---|
 | CSV seul | une ligne par photo : X/Y Lambert 93, date, altitude, adresse, lien Google Maps (UTF-8 avec BOM, `;`) |
 | ZIP Photos + CSV | le CSV + les photos |
-| ZIP QGIS | GeoJSON Lambert 93 + projet `.qgz`/`.qgs` (photos en vignettes) + photos |
+| ZIP QGIS | GeoJSON Lambert 93 + projet `.qgz`/`.qgs` (photos en vignettes encadrées, sans chevauchement, déplaçables) + photos |
 | ZIP Complet | CSV + GeoJSON + projet QGIS + photos |
 | **Carte HTML** | un seul fichier `.html` lisible dans tout navigateur : carte (OSM France, OpenTopoMap, photo aérienne IGN), marqueurs, popups avec photo et X/Y, grille des photos |
 | **Rapport PDF** | depuis la Carte HTML : titre, A4/A3, portrait/paysage ; page 1 = carte, puis 6 photos par page |
