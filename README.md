@@ -24,12 +24,12 @@
 | 1 — Viser | 2 — Annoter | 3 — Retrouver |
 |:---:|:---:|:---:|
 | ![Viseur](docs/screenshots/viseur.jpg) | ![Annotation](docs/screenshots/annotation.jpg) | ![Galerie](docs/screenshots/galerie.jpg) |
-| Position GPS, adresse et X/Y Lambert 93<br>en direct, mini-carte et objectifs | Stylo 12 couleurs, commentaire<br>ajouté sous la photo | Galerie de l'appli :<br>adresse et date de chaque photo |
+| Position GPS, adresse et X/Y Lambert 93<br>en direct, cap, mini-carte ronde | Stylo 12 couleurs, commentaire<br>et canevas ajoutés sous la photo | Galerie classée par jour,<br>en grille ou en liste |
 
 | 4 — Vérifier | 5 — Situer | 6 — Exporter |
 |:---:|:---:|:---:|
 | ![Photo](docs/screenshots/photo_detail.jpg) | ![Carte des photos](docs/screenshots/carte_photos.jpg) | ![Export](docs/screenshots/export_donnees.jpg) |
-| Bandeau incrusté, X/Y, altitude,<br>précision et cap enregistrés | Carte des photos (vignettes)<br>et export JPEG de la carte | CSV, ZIP, projet QGIS<br>ou Carte HTML |
+| Canevas sous la photo, X/Y, altitude,<br>précision et cap enregistrés | Carte des photos, bandeau de vignettes,<br>mise en page et image JPEG | Compte rendu (Carte HTML), projet QGIS<br>ou photos + tableau Excel |
 
 | Résultat : la Carte HTML ouverte dans un navigateur |
 |:---:|
