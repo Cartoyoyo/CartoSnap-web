@@ -6,7 +6,7 @@
 
 **Appareil photo de terrain qui nomme, annote et géoréférence chaque cliché en Lambert 93, utilisable sur iPhone dans Safari**
 
-[![Version](https://img.shields.io/badge/version-1.2.0-blue)](https://cartoyoyo.github.io/CartoSnap-web/)
+[![Version](https://img.shields.io/badge/version-1.3.0-blue)](https://cartoyoyo.github.io/CartoSnap-web/)
 [![iPhone](https://img.shields.io/badge/iPhone-Safari-lightgrey?logo=safari&logoColor=white)](https://cartoyoyo.github.io/CartoSnap-web/)
 [![Android](https://img.shields.io/badge/Android-APK-3DDC84?logo=android&logoColor=white)](https://cartoyoyo.github.io/CartoSnap-APK/)
 [![CRS](https://img.shields.io/badge/CRS-EPSG%3A2154%20Lambert%2093-orange)](https://cartoyoyo.github.io/CartoSnap-web/)
